@@ -1,0 +1,83 @@
+:root {
+    /* COLOR */
+    --bg-primary-color: #d25b2e;
+    --bg-secondary-color: #254e70;
+    --bg-dark-color: #1c1e24;
+    --bg-light-color: #f0f0f0;
+
+    --text-primary-color: #d25b2e;
+    --text-secondary-color: #254e70;
+    --text-dark-color: #1c1e24;
+    --text-light-color: #f0f0f0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--bg-light-color);
+    font-size: 1.4rem;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 span {
+    color: var(--text-primary-color);
+}
+
+hr {
+    margin: 10px;
+}
+
+section {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+article {
+    background-color: var(--bg-primary-color);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+article h2 {
+    font-size: 3rem;
+    color: var(--text-light-color);
+}
+
+article p {
+    font-size: 2rem;
+    margin: 8px 0;
+}
+
+article small {
+    font-size: 1.5rem;
+    color: var(--text-light-color);
+    margin-left: 10px;
+}
+
+article button {
+    background: none;
+    border: 2px solid var(--text-light-color);
+    font-size: 1.5rem;
+    color: var(--text-light-color);
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+article button:hover {
+    opacity: 0.7;
+}
